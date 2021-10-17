@@ -29,7 +29,7 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 $(call inherit-product, vendor/evox/config/common.mk)
 
 # Device identifier
-PRODUCT_NAME := evox_ginkgo
+PRODUCT_NAME := evolution_ginkgo
 PRODUCT_DEVICE := ginkgo
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
