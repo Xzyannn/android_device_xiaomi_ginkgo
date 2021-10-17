@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common ArrowOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
-$(call inherit-product, vendor/arrow/config/common.mk)
+$(call inherit-product, vendor/evox/config/common.mk)
 
 # Device identifier
 PRODUCT_NAME := evox_ginkgo
