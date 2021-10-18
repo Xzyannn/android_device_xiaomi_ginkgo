@@ -26,7 +26,7 @@ $(call inherit-product, device/xiaomi/ginkgo/device.mk)
 # Inherit some common ArrowOS stuff
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_INCLUDE_PIXEL_CHARGER := true
-$(call inherit-product, vendor/evox/config/evolution.mk)
+$(call inherit-product, vendor/evolution/config/common_full_phone.mk)
 
 # Device identifier
 PRODUCT_NAME := evolution_ginkgo
@@ -35,4 +35,3 @@ PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 8
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
-DEVICE_MAINTAINER := Iyan
